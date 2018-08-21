@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Challenges</title>
+    <script src="js/challenges.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+<body >
+ 
+  <div class="col-12">
+        <h1 id="title">Javascript Challenges</h1>
+    
+  </div>
+  <div class="row">
+       <!--Challenge 1-->
+        <div class="col-6 card green">
+          <h2>Challenge 1: Make a JavaScript program that checks two numbers and returns true if one of the numbers is 65 or if their sum is 65.</h2>
+        <h3>Enter 2 numbers below</h3>
+
+ <form action="" method="post" name="challenge1">
+  <input type="text" id="x">
+   <input type="text" id="y">
+  <input type="button" onclick="checkNum();" value="Submit" class="btn">
+  <h2 id="checkNumResult"></h2>
+</form>
+
+
+  </div>
+  <!--Challenge 2-->
+   <div class="col-6 card">
+      <h2>Challenge 2: Make a JavaScript program that returns the area of a triangle where the lengths of its three sides are 7, 8, 9.</h2>
+       <input type="button" onclick="areaTriangle();" value="Calculate Area" class="btn">
+<h3 id="areaTriangle"></h3>
+
+  </div>
+  </div>
+
+   <div class="row">
+          <!--Challenge 3-->
+           <div class="col-6 card">
+      
+<h2>Challenge 3: Make a JavaScript program that returns the largest of three numbers. Bonus points: allow the user to provide 3 numbers and your program will return the largest of the three</h2>
+<h3>Enter 3 numbers below</h3>
+ <form action="" method="post" name="challenge2">
+  <input type="number" id="num1">
+   <input type="number" id="num2">
+   <input type="number" id="num3">
+  <input type="button" onclick="checkLargest(num1, num2, num3);" value="Check" class="btn">
+  <h2 id="checkLargest"></h2>
+</form>
+  </div>
+  <!--Challenge 4-->
+     <div class="col-6 card">
+      
+<h2>Challenge 4: Make a JavaScript program to convert any number into hours and minutes. (For example, 71 will become 1 hour, 11 minutes; 133 will become 2 hours, 13 minutes.)</h2>
+<h3>Enter number to be converted</h3>
+<form action="" method="post" name="challenge4">
+  <input type="number" id="totalTime">
+   
+  <input type="button" onclick="convertTime();" value="convertTime" class="btn">
+  <h2 id="displayTime"></h2>
+</form>
+
+  </div>
+   </div>
+<div class="row">
+       <!--Challenge 5-->
+        <div class="col-6 card">
+      
+<h2>Challenge 5: Make a JavaScript program that takes two strings as input, and outputs the common characters/letters that they share. (For example, Input: ‘house’, ‘computers’ .. Output: ‘Common letters: o, u, e, s’).</h2>
+<h3>Enter 2 words below</h3>
+<form action="" method="post" name="challenge5">
+  <input type="text" id="string1">
+   <input type="text" id="string2">
+  <input type="button" onclick="commonCharacters();" value="Common Letters" class="btn">
+  <h3>The common letters are:</h3><h3 id="common"></h3>
+  
+</form>
+  </div>
+</div>
+ 
+
+       
+
+        
+
+
+
+</body>
+</html>
